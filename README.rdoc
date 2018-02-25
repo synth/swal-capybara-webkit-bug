@@ -5,8 +5,8 @@ To test:
     rspec spec/features/home_spec.rb
 
 * This will stop at debugger, and then type `ssi` (helper for screenshot_and_open_image). 
-* You will see modal overlay but no overlay
+* You will see modal overlay but no modal content
 * You can type: 
-  * `page.evaluate_script(%Q($('.swal2-modal').length))` => 1
-  * `page.evaluate_script(%Q($('.swal2-modal').offset()))` => {top: 0, left: 0}, this is suspect!
+  * page.evaluate_script(%Q($('.swal2-modal').length)) # 1
+  * page.evaluate_script(%Q($('.swal2-modal').offset())) # {top: 0, left: 0}, this is suspect!
 
