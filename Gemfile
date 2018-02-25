@@ -39,7 +39,7 @@ group :development, :test do
   gem 'rspec-core'
   gem 'rspec-rails'
   gem 'launchy'
-  gem 'capybara', '~> 2.7.0'
+  gem 'capybara'
   gem 'capybara-webkit'
   gem 'capybara-screenshot'
   gem 'selenium-webdriver', '2.47.1'
